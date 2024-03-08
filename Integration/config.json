@@ -1,0 +1,30 @@
+{
+  "development": {
+    "source_connection_properties": {
+      "url": "jdbc:sqlserver://10.0.0.9:1435;databaseName=NCPMS;encrypt=false",
+      "user": "sa",
+      "password": "spts@3311",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    },
+    "target_connection_properties": {
+      "url": "jdbc:sqlserver://10.0.0.9:1435;databaseName=ActiveSooperWizerNCL;encrypt=false",
+      "user": "sa",
+      "password": "spts@3311",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    }
+  },
+  "production": {
+    "source_connection_properties": {
+      "url": "jdbc:sqlserver://localhost:1433;databaseName=NCPMS;encrypt=false",
+      "user": "sa",
+      "password": "spts@3311",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    },
+    "target_connection_properties": {
+      "url": "jdbc:sqlserver://localhost:1433;databaseName=ActiveSooperWizerNCL;encrypt=false",
+      "user": "sa",
+      "password": "spts@3311",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    }
+  }
+}
